@@ -6,7 +6,7 @@ Angular2 @Component which automatically scrolls to the end of a div on the addit
 ### Usage
 
 #### Include the directive in the component
-``
+```javascript
 import ScrollGlue from 'angular2-scroll-glue'
 
 @Component({
@@ -15,11 +15,11 @@ import ScrollGlue from 'angular2-scroll-glue'
   template: template,
   directives: [ScrollGlue]
 })
-``
+```
 
 #### Add it to any vertically scrollable element in your templete
 
-``
+```html
   <div class="demo-scroll-area" scroll-glue>
     <ul>
       <li *ngFor="#item of listItems">
@@ -27,4 +27,4 @@ import ScrollGlue from 'angular2-scroll-glue'
       </li>
     </ul>
   </div>
-``
+```
