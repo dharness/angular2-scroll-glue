@@ -3,6 +3,7 @@
   "version": "1.0.6",
   "description": "Angular2 attribute directive for keeping a scrollable div scrolled to a particular position",
   "main": "webpack.config.js",
+  "url": "https://github.com/dharness/angular2-scroll-glue",
   "dependencies": {
     "angular2": "2.0.0-beta.9",
     "angular2-scroll-glue": "1.0.0",

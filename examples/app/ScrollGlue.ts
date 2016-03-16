@@ -1,7 +1,5 @@
 ///<reference path="../node_modules/angular2/typings/browser.d.ts"/>
 import {Directive, ElementRef, Input} from 'angular2/core';
-import 'zone.js';
-import 'reflect-metadata';
 
 
 @Directive({
