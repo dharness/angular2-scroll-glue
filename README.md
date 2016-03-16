@@ -20,7 +20,7 @@ import ScrollGlue from 'angular2-scroll-glue'
 #### Add it to any vertically scrollable element in your templete
 
 ```html
-  <div class="demo-scroll-area" scroll-glue>
+  <div scroll-glue>
     <ul>
       <li *ngFor="#item of listItems">
         {{ item }}
