@@ -1,11 +1,10 @@
 import {Component} from 'angular2/core'
-import {ScrollGlue} from './angular2-scroll-glue'
+import {ScrollGlue} from './ScrollGlue'
 
 
 @Component({
     selector: 'app',
     styles: [`
-
       .demo-scroll-area {
         width: 200px;
         height: 300px;
@@ -21,15 +20,15 @@ import {ScrollGlue} from './angular2-scroll-glue'
       }
       `],
     template: `
-    <h3> Flesh Coloured Demo List</h3>
-    <button (click)="addItem()">Add Item</button>
-    <div class="demo-scroll-area" scroll-glue>
-      <ul>
-        <li *ngFor="#item of listItems">
-          {{ item }}
-        </li>
-      </ul>
-    </div>`,
+      <h3> Flesh Coloured Demo List</h3>
+      <button (click)="addItem()">Add Item</button>
+      <div class="demo-scroll-area" scroll-glue>
+        <ul>
+          <li *ngFor="#item of listItems">
+            {{ item }}
+          </li>
+        </ul>
+      </div>`,
     directives: [ScrollGlue]
 })
 export class App {

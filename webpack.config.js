@@ -1,5 +1,6 @@
 "use strict";
 let webpack = require('webpack');
+let path = require('path');
 var CommonsChunkPlugin = webpack.optimize.CommonsChunkPlugin;
 
 module.exports = {
