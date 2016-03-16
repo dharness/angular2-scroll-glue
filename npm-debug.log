@@ -7,14 +7,7 @@
 3 info using node@v5.3.0
 4 info git [ 'status', '--porcelain' ]
 5 verbose stack Error: Git working directory not clean.
-5 verbose stack D app/ScrollGlue.ts
-5 verbose stack D app/app.ts
-5 verbose stack D app/bootstrap.ts
-5 verbose stack D components.js
-5 verbose stack D index.html
-5 verbose stack M package.json
-5 verbose stack M tsconfig.json
-5 verbose stack D webpack.config.js
+5 verbose stack M npm-debug.log
 5 verbose stack     at /usr/local/lib/node_modules/npm/lib/version.js:172:21
 5 verbose stack     at ChildProcess.exithandler (child_process.js:204:7)
 5 verbose stack     at emitTwo (events.js:87:13)
@@ -30,14 +23,7 @@
 9 error node v5.3.0
 10 error npm  v3.3.12
 11 error Git working directory not clean.
-11 error D app/ScrollGlue.ts
-11 error D app/app.ts
-11 error D app/bootstrap.ts
-11 error D components.js
-11 error D index.html
-11 error M package.json
-11 error M tsconfig.json
-11 error D webpack.config.js
+11 error M npm-debug.log
 12 error If you need help, you may report this error at:
 12 error     <https://github.com/npm/npm/issues>
 13 verbose exit [ 1, true ]
