@@ -9,9 +9,12 @@
     "declaration": true
   },
   "files": [
-    "app/bootstrap.ts"
+    "examples/app/bootstrap.ts",
+    "examples/app/app.ts",
+    "examples/app/ScrollGlue.ts"
   ],
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "example/node_modules"
   ]
 }

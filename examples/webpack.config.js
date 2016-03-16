@@ -4,6 +4,7 @@ let path = require('path');
 var CommonsChunkPlugin = webpack.optimize.CommonsChunkPlugin;
 
 module.exports = {
+  context: __dirname,
   entry: {
     'angular2': [
       'rxjs',
