@@ -7,6 +7,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 ///<reference path="../node_modules/angular2/typings/browser.d.ts"/>
 var core_1 = require('angular2/core');
+require('zone.js');
+require('reflect-metadata');
 var ScrollGlue = (function () {
     function ScrollGlue(_el) {
         this._el = _el;
