@@ -1,8 +1,6 @@
 # angular2-scroll-glue
 Angular2 @Component which automatically scrolls to the end of a div on the addition of new elements inside the div.
 
-## [Demo](https://plnkr.co/edit/puGLoHU50EkZ2044pFUo?p=preview)
-
 ### Usage
 
 #### Include the directive in the component
